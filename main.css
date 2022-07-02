@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+}
+body{
+    background-size: cover;
+    /* background-image: url(https://www.hdcarwallpapers.com/walls/lexus_lc_500_aviation_2021_5k-HD.jpg); */
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    flex-direction: row-reverse;
+}
+
+nav ul,li,a{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+nav img{
+    width: 75px;
+}
+hr{
+    margin-top: 10px;
+    width: 75%;
+    color: black;
+}
